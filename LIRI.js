@@ -75,10 +75,6 @@ function spotifyInfo(){
 
     })
 }
-// Create a function that takes take the text in the .random file and then uses what written there to run one of the three commans
-function txtGrabber() {
-
-}
 function omdbinfo() {
     var omdbURL = 'http://www.omdbapi.com/?t=' + movie + '&plot=short&tomatoes=true';
 
